@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro&family=Nova+Oval&family=PT+Sans&family=Roboto+Mono:wght@300&family=Roboto:wght@100&display=swap');
+:root {
+    --primary-color: rgb(5, 73, 82);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* hader section */
+
+header {
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 75px;
+    background-color: var(--primary-color);
+    color: rgb(202, 202, 202);
+    font-family: 'Farro', sans-serif;
+    font-family: 'Nova Oval', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* left side navigation */
+
+#navigator {
+    float: right;
+    padding-right: 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a,
+#navigator:hover {
+    color: tomato;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    border: rgb(136, 136, 136);
+}
+
+section h2 {
+    text-align: center;
+}
+
+
+/* products section */
+
+.products-container {
+    display: flex;
+    height: 25rem;
+}
+
+.prod {
+    width: 25%;
+    margin: 10px;
+    padding: 5px;
+    border-style: solid;
+    border-color: var(--primary-color);
+    border-radius: 15px;
+}
